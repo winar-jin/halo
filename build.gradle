@@ -66,7 +66,6 @@ ext {
     thumbnailatorVersion = '0.4.14'
     image4jVersion = "0.7zensight1"
     flywayVersion = "7.15.0"
-    h2Version = "1.4.199"
     levelDbVersion = "0.12"
     annotationsVersion = "3.0.1u2"
     zxingVersion = '3.4.1'
@@ -123,7 +122,6 @@ dependencies {
     implementation "com.google.zxing:core:$zxingVersion"
 
     implementation "org.iq80.leveldb:leveldb:$levelDbVersion"
-    runtimeOnly "com.h2database:h2:$h2Version"
     runtimeOnly "mysql:mysql-connector-java"
 
     compileOnly "org.projectlombok:lombok"
